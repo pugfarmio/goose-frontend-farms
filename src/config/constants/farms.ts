@@ -33,7 +33,7 @@ const farms: FarmConfig[] = [
     },
     quoteTokenSymbol: QuoteToken.BNB,
     quoteTokenAdresses: contracts.wbnb,
-  }/*,
+  },
   {
     pid: 2,
     risk: 3,
@@ -49,7 +49,7 @@ const farms: FarmConfig[] = [
     },
     quoteTokenSymbol: QuoteToken.BUSD,
     quoteTokenAdresses: contracts.busd,
-  },
+  } /* ,
   {
     pid: 3,
     risk: 1,
@@ -381,7 +381,7 @@ const farms: FarmConfig[] = [
     },
     quoteTokenSymbol: QuoteToken.BNB,
     quoteTokenAdresses: contracts.wbnb,
-  },*/
+  }, */,
 ]
 
 export default farms
