@@ -49,6 +49,23 @@ const farms: FarmConfig[] = [
     },
     quoteTokenSymbol: QuoteToken.BUSD,
     quoteTokenAdresses: contracts.busd,
+  },
+  {
+    pid: 3,
+    risk: 5,
+    isTokenOnly: true,
+    lpSymbol: 'FOLD',
+    lpAddresses: {
+      97: '',
+      56: '0x75321719981357cb0c664efa6cf7c37dda87068b', // Fold Token Address
+    },
+    tokenSymbol: 'FOLD',
+    tokenAddresses: {
+      97: '',
+      56: '0xB602CB3Ebc84B5a220De1DCB88E20b9c8Ad15DA1',
+    },
+    quoteTokenSymbol: QuoteToken.BUSD,
+    quoteTokenAdresses: contracts.busd,
   } /* ,
   {
     pid: 3,
